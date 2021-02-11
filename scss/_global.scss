@@ -26,7 +26,6 @@ body {
   color: $Dark-Blue;
   background: $Very-Light-Gray;
   overflow-x: hidden;
-  width: 100vw;
 
   &.active {
     &::before {
@@ -39,6 +38,7 @@ body {
     }
 
     header nav {
+      display: flex;
       visibility: visible;
       pointer-events: unset;
       transform: translateX(0);
