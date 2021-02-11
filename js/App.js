@@ -17,6 +17,7 @@ window.addEventListener("click", (e) => {
     body.style.overflow = "";
   }
 });
+
 window.addEventListener("touchstart", (e) => {
   if (e.target === hamburgerBtn || e.target.parentNode === hamburgerBtn) return;
   if (e.target !== menu) {
