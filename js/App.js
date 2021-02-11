@@ -18,14 +18,14 @@ window.addEventListener("click", (e) => {
   }
 });
 
-window.addEventListener("touchstart", (e) => {
-  if (e.target === hamburgerBtn || e.target.parentNode === hamburgerBtn) return;
-  if (e.target !== menu) {
-    hamburgerBtn.firstElementChild.classList.remove("active");
-    body.classList.remove("active");
-    body.style.overflow = "";
-  }
-});
+// window.addEventListener("touchstart", (e) => {
+//   if (e.target === hamburgerBtn || e.target.parentNode === hamburgerBtn) return;
+//   if (e.target !== menu) {
+//     hamburgerBtn.firstElementChild.classList.remove("active");
+//     body.classList.remove("active");
+//     body.style.overflow = "";
+//   }
+// });
 
 window.onresize = () => {
   if (window.innerWidth >= 580) {
