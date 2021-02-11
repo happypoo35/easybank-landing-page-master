@@ -38,10 +38,10 @@ body {
     }
 
     header nav {
-      // display: flex;
-      // visibility: visible;
+      display: flex;
       pointer-events: unset;
-      transform: translateX(0);
+      // visibility: visible;
+      // transform: translateX(0);
     }
   }
 }
